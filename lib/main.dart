@@ -5,6 +5,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     title: 'Hello brother',
     home: Scaffold(
+      backgroundColor: Colors.red[50],
       extendBodyBehindAppBar: true,
       appBar: AppBar(
         title: Text('Hello Rectangle'),
@@ -20,7 +21,7 @@ class HelloRectangle extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: Container(
-        color: Colors.redAccent,
+        color: Colors.lightGreenAccent.withOpacity(0.3),
         height: 300.0,
         width: 300.0,
         child: Text(
